@@ -1,8 +1,8 @@
-package com.example.chaintask.screens.splash
+package com.example.chainTask.screens.splash
 
 import com.example.data.cashe.manager.CachingManager
 import com.example.data.cashe.manager.ProviderEnum
-import com.example.chaintask.common.BaseViewModel
+import com.example.chainTask.common.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow

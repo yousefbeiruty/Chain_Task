@@ -1,8 +1,7 @@
-package com.example.chaintask.extensions
+package com.example.chainTask.extensions
 
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.widget.PopupMenu
@@ -29,8 +28,13 @@ fun Context.openMenu(view: View?, menu: Int, menuClick: (Int) -> Unit) {
     }
 }
 
-fun Context.openWebUrl(url: String?) {
-    val intent = Intent(Intent.ACTION_VIEW)
-    intent.data = Uri.parse(url)
-    startActivity(intent)
+fun Context.shareWebUrl(url: String?) {
+    val sendIntent: Intent = Intent().apply {
+        action = Intent.ACTION_SEND
+        putExtra(Intent.EXTRA_TEXT, url)
+        type = "text/plain"
+    }
+
+    val shareIntent = Intent.createChooser(sendIntent, null)
+    startActivity(shareIntent)
 }

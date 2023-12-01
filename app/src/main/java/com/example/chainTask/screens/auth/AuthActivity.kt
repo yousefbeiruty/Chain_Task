@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.auth
+package com.example.chainTask.screens.auth
 
 import android.os.Bundle
 import com.google.android.material.tabs.TabLayout
@@ -7,9 +7,9 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseBindingActivity
-import com.example.chaintask.databinding.ActivityAuthBinding
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseBindingActivity
+import com.example.chainTask.databinding.ActivityAuthBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

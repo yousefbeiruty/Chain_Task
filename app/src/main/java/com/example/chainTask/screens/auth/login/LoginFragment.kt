@@ -1,15 +1,15 @@
-package com.example.chaintask.screens.auth.login
+package com.example.chainTask.screens.auth.login
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseFragment
-import com.example.chaintask.databinding.FragmentLoginBinding
-import com.example.chaintask.extensions.collectLatest
-import com.example.chaintask.screens.auth.signup.ValidationFactory
-import com.example.chaintask.screens.auth.signup.ValidationViewState
-import com.example.chaintask.screens.main.MainActivity
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseFragment
+import com.example.chainTask.databinding.FragmentLoginBinding
+import com.example.chainTask.extensions.collectLatest
+import com.example.chainTask.screens.auth.signup.ValidationFactory
+import com.example.chainTask.screens.auth.signup.ValidationViewState
+import com.example.chainTask.screens.main.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

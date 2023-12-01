@@ -1,4 +1,4 @@
-package com.example.chaintask.common
+package com.example.chainTask.common
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

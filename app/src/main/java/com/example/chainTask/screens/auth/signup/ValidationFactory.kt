@@ -1,8 +1,8 @@
-package com.example.chaintask.screens.auth.signup
+package com.example.chainTask.screens.auth.signup
 
 import android.content.Context
-import com.example.chaintask.R
-import com.example.chaintask.extensions.showToast
+import com.example.chainTask.R
+import com.example.chainTask.extensions.showToast
 
 object ValidationFactory {
 

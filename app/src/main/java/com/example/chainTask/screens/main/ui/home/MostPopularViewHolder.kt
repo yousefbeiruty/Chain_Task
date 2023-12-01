@@ -1,9 +1,9 @@
-package com.example.chaintask.screens.main.ui.home
+package com.example.chainTask.screens.main.ui.home
 
 import android.view.View
-import com.example.chaintask.common.BaseViewHolder
-import com.example.chaintask.databinding.ItemMostPopulerBinding
-import com.example.chaintask.extensions.toViewClickListener
+import com.example.chainTask.common.BaseViewHolder
+import com.example.chainTask.databinding.ItemMostPopulerBinding
+import com.example.chainTask.extensions.toViewClickListener
 import com.example.domain.model.home.MostPopular
 
 class MostPopularViewHolder(private val item: ItemMostPopulerBinding) : BaseViewHolder<MostPopular>(item) {

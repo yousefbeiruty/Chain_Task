@@ -1,4 +1,4 @@
-package com.example.chaintask
+package com.example.chainTask
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

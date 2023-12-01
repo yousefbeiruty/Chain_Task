@@ -1,8 +1,7 @@
-package com.example.chaintask.extensions
+package com.example.chainTask.extensions
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
-import com.example.domain.model.signup.User
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow

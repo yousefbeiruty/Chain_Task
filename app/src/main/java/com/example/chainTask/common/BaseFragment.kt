@@ -1,4 +1,4 @@
-package com.example.chaintask.common
+package com.example.chainTask.common
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,9 +11,9 @@ import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.createViewModelLazy
 import androidx.lifecycle.ViewModel
-import com.example.chaintask.extensions.getGenericClass
-import com.example.chaintask.extensions.hideProgressDialog
-import com.example.chaintask.extensions.showProgressDialog
+import com.example.chainTask.extensions.getGenericClass
+import com.example.chainTask.extensions.hideProgressDialog
+import com.example.chainTask.extensions.showProgressDialog
 import com.example.domain.common.ResultException
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.example.chaintask.common
+package com.example.chainTask.common
 
 import android.content.Context
 import android.graphics.Color
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialog
 import androidx.databinding.DataBindingUtil
-import com.example.chaintask.R
-import com.example.chaintask.databinding.DialogBinding
+import com.example.chainTask.R
+import com.example.chainTask.databinding.DialogBinding
 
 class ProgressDialog(private val mContext: Context) : AppCompatDialog(mContext) {
 

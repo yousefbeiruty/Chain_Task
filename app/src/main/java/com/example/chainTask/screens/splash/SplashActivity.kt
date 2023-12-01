@@ -1,25 +1,21 @@
-package com.example.chaintask.screens.splash
+package com.example.chainTask.screens.splash
 
-import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.activity.viewModels
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseBindingActivity
-import com.example.chaintask.compose.ComposeMainActivity
-import com.example.chaintask.databinding.ActivityAuthBinding
-import com.example.chaintask.databinding.ActivitySplashBinding
-import com.example.chaintask.extensions.collectLatest
-import com.example.chaintask.screens.auth.AuthActivity
-import com.example.chaintask.screens.main.MainActivity
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseBindingActivity
+import com.example.chainTask.databinding.ActivitySplashBinding
+import com.example.chainTask.screens.auth.AuthActivity
+import com.example.chainTask.screens.main.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class SplashActivity : BaseBindingActivity<ActivitySplashBinding>(R.layout.activity_splash)  {
+class SplashActivity : BaseBindingActivity<ActivitySplashBinding>(
+    R.layout.activity_splash)  {
     val viewModel: SplashViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

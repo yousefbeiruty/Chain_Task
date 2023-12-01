@@ -1,6 +1,6 @@
-package com.example.chaintask.extensions
+package com.example.chainTask.extensions
 
-import com.example.chaintask.common.ProgressDialog
+import com.example.chainTask.common.ProgressDialog
 
 fun ProgressDialog.showProgressDialog(){
     this.show()

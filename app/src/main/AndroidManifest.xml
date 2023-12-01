@@ -17,11 +17,6 @@
         android:theme="@style/Theme.DeloiteTask"
         tools:targetApi="31">
         <activity
-            android:name=".compose.ComposeMainActivity"
-            android:exported="false"
-            android:label="@string/title_activity_compose_main"
-            android:theme="@style/Theme.DeloiteTask" />
-        <activity
             android:name=".screens.auth.AuthActivity"
             android:exported="false"
             android:label="@string/title_activity_auth"

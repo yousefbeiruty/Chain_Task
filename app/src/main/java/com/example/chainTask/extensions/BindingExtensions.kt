@@ -1,4 +1,4 @@
-package com.example.chaintask.extensions
+package com.example.chainTask.extensions
 
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.chaintask.R
+import com.example.chainTask.R
 
 val DEFAULT_IMAGE_RES = R.drawable.ic_logo_signature
 @BindingAdapter("image_url", "default_image", requireAll = false)

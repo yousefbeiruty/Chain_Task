@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.main
+package com.example.chainTask.screens.main
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -8,8 +8,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.chaintask.R
-import com.example.chaintask.databinding.ActivityMainBinding
+import com.example.chainTask.R
+import com.example.chainTask.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

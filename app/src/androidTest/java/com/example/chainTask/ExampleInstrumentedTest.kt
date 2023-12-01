@@ -1,4 +1,4 @@
-package com.example.chaintask
+package com.example.chainTask
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,12 +1,9 @@
-package com.example.chaintask.screens.main.ui.more
+package com.example.chainTask.screens.main.ui.more
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import com.example.data.cashe.manager.CachingManager
 import com.example.data.cashe.manager.ProviderEnum
-import com.example.chaintask.common.BaseViewModel
-import com.example.chaintask.common.BaseViewState
+import com.example.chainTask.common.BaseViewModel
+import com.example.chainTask.common.BaseViewState
 import com.example.domain.common.ResultWrapper
 import com.example.domain.model.signup.User
 import com.example.domain.usecase.signup.GetSignUpDataUseCase

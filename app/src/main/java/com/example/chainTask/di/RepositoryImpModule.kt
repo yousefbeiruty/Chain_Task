@@ -1,4 +1,4 @@
-package com.example.chaintask.di
+package com.example.chainTask.di
 
 import com.example.data.cashe.manager.CachingManager
 import com.example.data.network.home.HomeService
@@ -15,13 +15,11 @@ import com.example.domain.repository.login.LoginRepository
 import com.example.domain.repository.movie.MovieRemoteDataRepository
 import com.example.domain.repository.movie.MovieRepository
 import com.example.domain.repository.signup.SignUpRepository
-import com.example.domain.usecase.movie.MovieUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import dagger.hilt.android.scopes.ViewModelScoped
-import javax.inject.Singleton
 
 @Module
 @InstallIn(ViewModelComponent::class)

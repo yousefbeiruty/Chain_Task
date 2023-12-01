@@ -1,4 +1,4 @@
-package com.example.chaintask.extensions
+package com.example.chainTask.extensions
 
 import android.widget.TextView
 import androidx.databinding.BindingAdapter

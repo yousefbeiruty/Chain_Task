@@ -1,8 +1,8 @@
-package com.example.chaintask.screens.main.ui.home
+package com.example.chainTask.screens.main.ui.home
 
 import com.example.data.BuildConfig
-import com.example.chaintask.common.BaseViewModel
-import com.example.chaintask.common.BaseViewState
+import com.example.chainTask.common.BaseViewModel
+import com.example.chainTask.common.BaseViewState
 import com.example.domain.common.ResultWrapper
 import com.example.domain.model.home.MostPopular
 import com.example.domain.usecase.home.GetFilteredMostPopularUseCase

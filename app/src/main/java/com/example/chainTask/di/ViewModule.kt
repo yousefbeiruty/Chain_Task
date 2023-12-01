@@ -1,7 +1,7 @@
-package com.example.chaintask.di
+package com.example.chainTask.di
 
 import android.content.Context
-import com.example.chaintask.common.ProgressDialog
+import com.example.chainTask.common.ProgressDialog
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

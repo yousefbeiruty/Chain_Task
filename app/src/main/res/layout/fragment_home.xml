@@ -6,11 +6,11 @@
 
         <variable
             name="viewModel"
-            type="com.example.deloitetask.screens.main.ui.home.HomeViewModel" />
+            type="com.example.chainTask.screens.main.ui.home.HomeViewModel" />
 
         <variable
             name="adapter"
-            type="com.example.deloitetask.screens.main.ui.home.MostPopularAdapter" />
+            type="com.example.chainTask.screens.main.ui.home.MostPopularAdapter" />
 
         <variable
             name="mostPopulars"

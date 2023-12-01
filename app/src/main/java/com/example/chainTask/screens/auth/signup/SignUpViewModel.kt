@@ -1,8 +1,8 @@
-package com.example.chaintask.screens.auth.signup
+package com.example.chainTask.screens.auth.signup
 
 import android.util.Patterns
-import com.example.chaintask.common.BaseViewModel
-import com.example.chaintask.common.BaseViewState
+import com.example.chainTask.common.BaseViewModel
+import com.example.chainTask.common.BaseViewState
 import com.example.domain.common.ResultWrapper
 import com.example.domain.model.signup.User
 import com.example.domain.usecase.signup.GetSignUpDataUseCase

@@ -1,15 +1,14 @@
-package com.example.chaintask.screens.main.ui.more
+package com.example.chainTask.screens.main.ui.more
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.navigation.Navigation.findNavController
 import androidx.navigation.fragment.findNavController
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseFragment
-import com.example.chaintask.databinding.FragmentMoreBinding
-import com.example.chaintask.extensions.collectLatest
-import com.example.chaintask.screens.auth.AuthActivity
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseFragment
+import com.example.chainTask.databinding.FragmentMoreBinding
+import com.example.chainTask.extensions.collectLatest
+import com.example.chainTask.screens.auth.AuthActivity
 import com.example.domain.model.signup.User
 import dagger.hilt.android.AndroidEntryPoint
 

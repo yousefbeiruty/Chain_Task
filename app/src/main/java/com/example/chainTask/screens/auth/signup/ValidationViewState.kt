@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.auth.signup
+package com.example.chainTask.screens.auth.signup
 
 
 sealed class ValidationViewState {

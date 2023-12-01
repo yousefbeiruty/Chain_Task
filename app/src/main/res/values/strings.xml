@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DeloiteTask</string>
+    <string name="app_name">Chain Task</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.main.ui.settings
+package com.example.chainTask.screens.main.ui.settings
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

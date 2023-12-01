@@ -1,14 +1,14 @@
-package com.example.chaintask.screens.main.ui.home
+package com.example.chainTask.screens.main.ui.home
 
 import android.os.Bundle
 import android.view.View
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseFragment
-import com.example.chaintask.databinding.FragmentHomeBinding
-import com.example.chaintask.extensions.collectLatest
-import com.example.chaintask.extensions.onEditTextChanged
-import com.example.chaintask.extensions.openMenu
-import com.example.chaintask.extensions.openWebUrl
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseFragment
+import com.example.chainTask.databinding.FragmentHomeBinding
+import com.example.chainTask.extensions.collectLatest
+import com.example.chainTask.extensions.onEditTextChanged
+import com.example.chainTask.extensions.openMenu
+import com.example.chainTask.extensions.shareWebUrl
 import com.example.domain.model.home.MostPopular
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -41,7 +41,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel>(R.layout.f
 
     private fun initViewListener() {
         mostPopularAdapter.setOnItemClickListener { _, model, _ ->
-            requireContext().openWebUrl(model.url)
+            requireContext().shareWebUrl(model.url)
         }
 
         viewBinding?.refreshLayoutParkingAvailability?.setOnRefreshListener {

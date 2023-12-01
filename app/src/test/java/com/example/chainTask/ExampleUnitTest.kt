@@ -1,4 +1,4 @@
-package com.example.chaintask
+package com.example.chainTask
 
 import org.junit.Test
 

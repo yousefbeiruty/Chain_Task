@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.deloitetask.screens.auth.login.LoginViewModel" />
+            type="com.example.chainTask.screens.auth.login.LoginViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

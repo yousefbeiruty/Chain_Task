@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.main.ui.more
+package com.example.chainTask.screens.main.ui.more
 
 sealed class MoreViewState {
 

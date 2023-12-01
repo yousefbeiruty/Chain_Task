@@ -1,4 +1,4 @@
-package com.example.chaintask.screens.main.ui.settings
+package com.example.chainTask.screens.main.ui.settings
 
 import android.app.LocaleManager
 import android.os.Build
@@ -9,8 +9,8 @@ import androidx.core.os.LocaleListCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceFragmentCompat
-import com.example.chaintask.R
-import com.example.chaintask.common.LocalConstants
+import com.example.chainTask.R
+import com.example.chainTask.common.LocalConstants
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

@@ -1,15 +1,13 @@
-package com.example.chaintask.screens.auth.signup
+package com.example.chainTask.screens.auth.signup
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseFragment
-import com.example.chaintask.databinding.FragmentSignUpBinding
-import com.example.chaintask.extensions.collectLatest
-import com.example.chaintask.extensions.showDatePickerDialog
-import com.example.chaintask.extensions.showToast
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseFragment
+import com.example.chainTask.databinding.FragmentSignUpBinding
+import com.example.chainTask.extensions.collectLatest
+import com.example.chainTask.extensions.showDatePickerDialog
+import com.example.chainTask.extensions.showToast
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,13 +1,13 @@
-package com.example.chaintask.screens.main.ui.home
+package com.example.chainTask.screens.main.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
-import com.example.chaintask.R
-import com.example.chaintask.common.BaseListAdapter
-import com.example.chaintask.common.BaseViewHolder
-import com.example.chaintask.databinding.ItemMostPopulerBinding
+import com.example.chainTask.R
+import com.example.chainTask.common.BaseListAdapter
+import com.example.chainTask.common.BaseViewHolder
+import com.example.chainTask.databinding.ItemMostPopulerBinding
 import com.example.domain.model.home.MostPopular
 
 class MostPopularAdapter : BaseListAdapter<BaseViewHolder<MostPopular>, MostPopular>(DIFF_CALLBACK) {

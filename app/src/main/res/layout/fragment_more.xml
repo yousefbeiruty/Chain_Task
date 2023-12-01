@@ -12,10 +12,11 @@
 
         <variable
             name="viewModel"
-            type="com.example.deloitetask.screens.main.ui.more.MoreViewModel" />
+            type="com.example.chainTask.screens.main.ui.more.MoreViewModel" />
     </data>
 
     <ScrollView
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -170,6 +171,7 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imageViewLogout"
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_logout"
@@ -181,6 +183,7 @@
 
             <TextView
                 android:id="@+id/textViewLogout"
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_10ssp"
